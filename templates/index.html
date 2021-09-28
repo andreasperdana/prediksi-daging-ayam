@@ -34,47 +34,47 @@
                 method="post"
                 class="flex flex-col"
             >
-                <label for="Pasar1" class="mb-2">Pasar 1</label>
+                <label for="Pasar1" class="mb-2">Pasar Karangayu</label>
                 <input
-                    type="text"
+                    type="number"
+                    placeholder="ketik sebuah harga dalam angka"
                     name="Pasar1"
-                    placeholder="Pasar1"
                     required="required"
                     class="p-4 bg-gray-100 rounded-md"
                 />
 
-                <label for="Pasar2" class="mb-2">Pasar 2</label>
+                <label for="Pasar2" class="mb-2">Pasar JMAJT</label>
                 <input
-                    type="text"
+                    type="number"
+                    placeholder="ketik sebuah harga dalam angka"
                     name="Pasar2"
-                    placeholder="Pasar2"
                     required="required"
                     class="p-4 bg-gray-100 rounded-md"
                 />
 
-                <label for="Pasar3" class="mb-2">Pasar 3</label>
+                <label for="Pasar3" class="mb-2">Pasar Gayamsari</label>
                 <input
-                    type="text"
+                    type="number"
+                    placeholder="ketik sebuah harga dalam angka"
                     name="Pasar3"
-                    placeholder="Pasar3"
                     required="required"
                     class="p-4 bg-gray-100 rounded-md"
                 />
 
-                <label for="Pasar4" class="mb-2">Pasar 4</label>
+                <label for="Pasar4" class="mb-2">Pasar Peterongan</label>
                 <input
-                    type="text"
+                    type="number"
+                    placeholder="ketik sebuah harga dalam angka"
                     name="Pasar4"
-                    placeholder="Pasar4"
                     required="required"
                     class="p-4 bg-gray-100 rounded-md"
                 />
 
-                <label for="Pasar5" class="mb-2">Pasar 5</label>
+                <label for="Pasar5" class="mb-2">Pasar Bulu</label>
                 <input
-                    type="text"
+                    type="number"
+                    placeholder="ketik sebuah harga dalam angka"
                     name="Pasar5"
-                    placeholder="Pasar5"
                     required="required"
                     class="p-4 bg-gray-100 rounded-md"
                 />
@@ -123,12 +123,11 @@
                 <h2 class="text-5xl font-bold">Rp. {{ prediction }}</h2>
                 {% if (prediction) != 0 %}
                 <div class="mt-8">
-                    <p>Pasar 1: Rp. {{ pasar1 }} </p>
-                    <p>Pasar 2: Rp. {{ pasar2 }} </p>
-                    <p>Pasar 3: Rp. {{ pasar3 }} </p>
-                    <p>Pasar 4: Rp. {{ pasar4 }} </p>
-                    <p>Pasar 5: Rp. {{ pasar5 }} </p>
-
+                    <p>P. Karangayu: Rp. {{ pasar1 }} </p>
+                    <p>P. JMAJT: Rp. {{ pasar2 }} </p>
+                    <p>P. Gayamsari: Rp. {{ pasar3 }} </p>
+                    <p>P. Peterongan: Rp. {{ pasar4 }} </p>
+                    <p>P. Bulu: Rp. {{ pasar5 }} </p>
                     
                 </div>
                 {% endif %}
@@ -144,6 +143,35 @@
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg/604px-Logo_of_Ministry_of_Communication_and_Information_Technology_of_the_Republic_of_Indonesia.svg.png"
                     alt="logo-kominfo"
                 />
+            </div>
+            <div class="flex justify-around bg-yellow p-16 rounded-lg mt-8">
+                <h1 class="text-2xl mb-8">
+                    Dideploy oleh:
+                </h1>
+                <a href="http://stimata.ac.id">
+                <img
+                    class="h-24 md:h-28"
+                    src="http://stimata.ac.id/media/2019/09/Lion-Pentagon.png"
+                    alt="logo-stimata"
+                />
+                </a>
+                
+                <a href = "http://www.stmikdharmawacana.ac.id/" >
+                <img
+                    class="h-24 md:h-28"
+                    src="http://www.stmikdharmawacana.ac.id/wp-content/uploads/2019/03/logo-STMIK-DW-muter-budi.spielberg@gmail.com_.gif"
+                    alt="logo-stmikdharmawacana"
+                />
+                </a>
+                
+                <a href="https://home.amikom.ac.id/">
+                <img
+                    class="h-24 md:h-28"
+                    src="https://home.amikom.ac.id/media/2020/08/logo-amikom-t.png"
+                    alt="logo-univamikom"
+                />
+                </a>
+                
             </div>
         </section>
     </body>
